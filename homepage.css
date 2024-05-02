@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lilita+One&display=swap');
+body {
+    background-color: #F3C9F9;
+    background-image: url(images/home-bg.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin-top: -200px; 
+    height: 50vh; 
+    margin: 0; 
+    padding: 0; 
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.nav-logo {
+    color: white !important;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.nav-item {
+    font-family: "Comfortaa", sans-serif;
+    margin-right: 50px; 
+    font-size: 1rem;
+}
+
+.one {
+    animation: fadeIn 1.0s ease-in-out forwards;
+}
+.two {
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+.three {
+    animation: fadeIn 2.0s ease-in-out forwards;
+}
+.four {
+    animation: fadeIn 2.5s ease-in-out forwards;
+}
+
+.navbar-nav .nav-link {
+    color: white !important; 
+}
+
+.navbar {
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+}
+
+.container {
+    margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.containertwo {
+    justify-content: center;
+    margin-top: 450px;
+    color: white;
+    text-align: center; 
+}
+
+.title {
+    font-family: "Lilita One", sans-serif;
+    font-weight: bold;
+    font-size: 5.0rem;
+    margin-bottom: 10px;
+}
+
+@keyframes colorAnimation {
+    0% { color: white; }
+    33% { color: pink; }
+    66% { color: yellow; }
+    100% { color: white; }
+}
+
+.description {
+    animation: colorAnimation 4s infinite;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.btn-info {
+    font-weight: 500;
+    margin-bottom: 70px;
+    background-color: white; 
+    color: #6a0dad; 
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: 1px solid white; 
+    border-radius: 80px;
+    transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #49217d; 
+    color: white; 
+}
+
+/* New Purple Section */
+.purple-section {
+    font-family: "Comfortaa", sans-serif;
+    background-color: #F3C9F9;
+    position: relative;
+    z-index: 1; 
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+.yellow-text{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+}
+@media only screen and (max-width: 768px) {
+    .yellow-text {
+        font-size: 14px; 
+        letter-spacing: 2px; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .yellow-text {
+        font-size: 14px; 
+        letter-spacing: 1px; 
+    }
+}
+
+/* Footer Styling */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content p {
+    margin: 0;
+}
+.social-icons {
+    margin-left: 10px;
+}
+.social-icons a {
+    color: white;
+    margin-right: 10px;
+}
