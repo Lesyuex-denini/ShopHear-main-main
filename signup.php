@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         }
 
         .box {
-            margin-top: 20px;
+            margin-top: 1px;
             display: grid;
             place-items: center;
             font-family: 'Varela Round', sans-serif;

@@ -150,6 +150,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             font-family: 'Varela Round', sans-serif;
             
         }
+        .form-control {
+            background-color: #BBBBBB; /* Change this color to your desired background color */
+        }
+
 
         .col-md-6 {
             text-align: center;

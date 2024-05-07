@@ -21,6 +21,12 @@
       text-align: center;
       font-size: 16px;
     }
+    .team-member img {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      border-radius: 10px; 
+    }
     body{
       background-image: url("images/about-bg.png");
       background-size: cover;
