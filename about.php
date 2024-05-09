@@ -172,7 +172,7 @@
 
   <footer class="footer">
     <div class="container footer-content">
-      <p>&copy; 2024 Your Website</p>
+      <p>&copy; 2024 ShopHear</p>
       <div class="social-icons">
       <a href="https://www.facebook.com/mills.abadinas/"><i class="fab fa-facebook"></i></a>
         <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>

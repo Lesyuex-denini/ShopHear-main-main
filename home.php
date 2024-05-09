@@ -87,6 +87,29 @@
             margin-top: 3px;
             color: #ffffff;
         }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            bottom: 0; 
+            width: 100%; 
+        }
+        .footer-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-content p {
+            margin: 0;
+        }
+        .social-icons {
+            margin-left: 10px;
+        }
+        .social-icons a {
+            color: white;
+            margin-right: 10px;
+        }
         
   
   </style>
@@ -102,7 +125,7 @@
     <a href="home.php?user_id=<?php if(isset($_GET['user_id'])) { echo $_GET['user_id']; } ?>" id="home">
             <i class="bi bi-house-fill"></i>
         </a>
-        <a href="index.php?user_id=<?php if(isset($_GET['user_id'])) { echo $_GET['user_id']; } ?>" id="glasses">
+        <a href="product.php?user_id=<?php if(isset($_GET['user_id'])) { echo $_GET['user_id']; } ?>" id="glasses">
             <i class="bi bi-emoji-sunglasses-fill" id="glasses-button"></i>
         </a>
         <a href="cart.php?user_id=<?php if(isset($_GET['user_id'])) { echo $_GET['user_id']; } ?>" id="cart">
@@ -158,7 +181,7 @@
 
 <footer class="footer">
     <div class="container footer-content">
-      <p>&copy; 2024 Your Website</p>
+      <p>&copy; 2024 ShopHear</p>
       <div class="social-icons">
         <a href="https://www.facebook.com/mills.abadinas/"><i class="fab fa-facebook"></i></a>
         <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
